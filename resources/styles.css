@@ -10,11 +10,17 @@ body {
     padding: 0;
     overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
+    background: rgb(235,174,161);
+    background: linear-gradient(234deg, rgba(235,174,161,1) 0%, rgba(235,174,161,1) 41%, rgba(248,248,255,1) 41%);
+}
+
+* {
+    box-sizing: border-box;
 }
 
 /* NAVBAR */
 .navbar {
-    background-color: var(--pink);
+    /* background-color: var(--pink); */
     color: var(--true-black);
 }
 
@@ -24,6 +30,8 @@ body {
     font-style: italic;
     margin: 10px 0;
     line-height: 1.2;
+   
+    
 }
 
 .navbar .flex {
@@ -41,6 +49,7 @@ body {
     padding: 9px;
     margin: 0 10px;
     position: relative;
+    text-transform: uppercase;
 }
 
 .navbar a::before {
@@ -86,7 +95,7 @@ li {
 
 /* MAIN */
 .main {
-    background-color: var(--pink);
+    /* background-color: var(--pink); */
     height: 100vh;
 }
 
@@ -94,3 +103,19 @@ li {
     margin-bottom: 30px;
 }
 
+.main h1 {
+    text-transform: uppercase;
+    font-size: 3em;
+}
+
+.grid {
+    overflow: visible;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.grid-item-1,
+.grid-item-2 {
+    position: relative;
+    top: 50px;
+}
