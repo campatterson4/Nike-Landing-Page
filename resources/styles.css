@@ -19,6 +19,24 @@ body {
     font-size: 3em;
     font-weight: 900;
     font-style: italic;
+    margin: 10px 0;
+    line-height: 1.2;
+}
+
+.navbar .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar a {
+    padding: 9px;
+    margin: 0 10px;
 }
 
 .outline {
