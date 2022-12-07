@@ -15,3 +15,11 @@ body {
     color: black;
     text-decoration: none;
 }
+
+.logo {
+    font-size: 3em;
+}
+
+li {
+    list-style-type: none;
+}
