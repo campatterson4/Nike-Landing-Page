@@ -1,5 +1,5 @@
 :root {
-
+    --pink: #EBAEA1;
 }
 
 html,
@@ -11,6 +11,10 @@ body {
 }
 
 /* NAVBAR */
+.navbar {
+    background-color: var(--pink);
+}
+
 .outline {
     color: black;
     text-decoration: none;
