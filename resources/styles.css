@@ -1,5 +1,7 @@
 :root {
     --pink: #EBAEA1;
+    --matte-black: #28282B;
+    --true-black: #000;
 }
 
 html,
@@ -13,6 +15,7 @@ body {
 /* NAVBAR */
 .navbar {
     background-color: var(--pink);
+    color: var(--true-black);
 }
 
 .navbar h1 {
@@ -48,7 +51,7 @@ content: "";
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #000;
+  background-color: var(--true-black);
   transform: scaleX(0);
   transition: transform 0.3s ease;
 }
