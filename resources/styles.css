@@ -83,3 +83,14 @@ li {
     max-width: 1200px;
     overflow: visible;
 }
+
+/* MAIN */
+.main {
+    background-color: var(--pink);
+    height: 100vh;
+}
+
+.main p {
+    margin-bottom: 30px;
+}
+
