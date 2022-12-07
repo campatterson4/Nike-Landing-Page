@@ -31,7 +31,7 @@ body {
     margin: 10px 0;
     line-height: 1.2;
     position: relative !important;
-    right: 20%;
+    right: 30%;
 }
 
 .navbar .flex {
@@ -43,11 +43,13 @@ body {
 
 .navbar ul {
     display: flex;
+    position: relative;
+    left: 30%;
 }
 
 .navbar a {
     padding: 9px;
-    margin: 0 10px;
+    margin: 0 30px;
     position: relative;
     text-transform: uppercase;
 }
