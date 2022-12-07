@@ -30,8 +30,8 @@ body {
     font-style: italic;
     margin: 10px 0;
     line-height: 1.2;
-   
-    
+    position: relative !important;
+    right: 20%;
 }
 
 .navbar .flex {
