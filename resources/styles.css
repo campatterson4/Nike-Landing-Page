@@ -7,21 +7,21 @@
 
 html,
 body {
-    margin: 0;
-    padding: 0;
     overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
-    background: rgb(235,174,161);
-    background: linear-gradient(234deg, rgba(235,174,161,1) 0%, rgba(235,174,161,1) 41%, rgba(248,248,255,1) 41%);
+    /* background: rgb(235,174,161);
+    background: linear-gradient(234deg, rgba(235,174,161,1) 0%, rgba(235,174,161,1) 41%, rgba(248,248,255,1) 41%); */
 }
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 /* NAVBAR */
-.navbar {
-    /* background-color: var(--pink); */
+    .navbar {
+     background-color: var(--pink);
     color: var(--true-black);
 }
 
@@ -94,12 +94,12 @@ li {
     margin: 0 auto;
     max-width: 1200px;
     overflow: visible;
-}
+} 
 
 /* MAIN */
-.main {
+/* .main { */
     /* background-color: var(--pink); */
-    height: 100vh;
+    /* height: 100vh;
 }
 
 .main p {
@@ -122,4 +122,4 @@ li {
 .grid-item-2 {
     position: relative;
     top: 50px;
-}
+} */
