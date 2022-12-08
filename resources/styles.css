@@ -183,7 +183,7 @@ li {
 }
 
 .color-wrapper > div:hover {
-    border: 2px solid var(--grey);
+    border: 2px solid var(--dark-blue);
     cursor: pointer;
 }
 
@@ -194,7 +194,7 @@ li {
     margin: 5px;
     border: 2px solid var(--matte-black);
     border-radius: 50%;
-    background-color: var(--matte-black);
+    background-color: var(--white);
 }
 
 .color-wrapper > div > div {
