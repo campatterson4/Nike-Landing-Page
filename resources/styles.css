@@ -90,35 +90,7 @@ li {
     margin: 0 auto;
     max-width: 1200px;
     overflow: visible;
-} 
-
-/* MAIN */
-/* .main { */
-    /* background-color: var(--pink); */
-    /* height: 100vh;
 }
-
-.main p {
-    margin-bottom: 30px;
-    color: var(--grey);
-}
-
-.main h1 {
-    text-transform: uppercase;
-    font-size: 3em;
-}
-
-.grid {
-    overflow: visible;
-    display: grid;
-    grid-template-columns: 40% 60%;
-}
-
-.grid-item-1,
-.grid-item-2 {
-    position: relative;
-    top: 50px;
-} */
 
 .row {
     display: flex;
