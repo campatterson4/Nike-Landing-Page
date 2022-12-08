@@ -8,6 +8,8 @@
 
 html,
 body {
+    height: 100vh;
+    overflow: hidden;
     /* background: rgb(235,174,161);
     background: linear-gradient(234deg, rgba(235,174,161,1) 0%, rgba(235,174,161,1) 41%, rgba(248,248,255,1) 41%); */
 }
@@ -115,3 +117,49 @@ li {
     top: 50px;
 } */
 
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.row::after,
+.row::before {
+    box-sizing: border-box;
+}
+
+.column {
+    position: relative;
+    width: 50%;
+}
+
+.bg-pink {
+    background-color: var(--pink);
+}
+
+.bg-white {
+    background-color: var(--white);
+}
+
+.main {
+    overflow: hidden;
+    height: 500%;
+}
+
+.height {
+    height: 100vh;
+}
+
+.shoes-img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 85%;
+    transform: translate(-50%, -50%);
+}
+
+.img-wrapper img {
+    width: 80%;
+    height: auto;
+    transform: rotate(-35deg);
+}
