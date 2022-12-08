@@ -194,10 +194,6 @@ li {
     color: var(--grey) !important;
 }
 
-/* .price span {
-    color: var(--matte-black);
-} */
-
 .info-wrapper {
     position: relative;
     text-align: center;
