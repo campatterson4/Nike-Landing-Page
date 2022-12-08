@@ -150,7 +150,7 @@ li {
 .shoe-name h1 {
     text-transform: uppercase;
     font-weight: 900;
-    font-size: 3.5em;
+    font-size: 4em;
     margin-bottom: 6%;
     color: var(--dark-blue) !important;
 }
