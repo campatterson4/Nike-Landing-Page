@@ -125,6 +125,13 @@ li {
     top: 50px;
 } */
 
+.bg-white {
+    background-color: var(--white);
+}
+
+.bg-pink {
+    background-color: var(--pink);
+}
 
 .row {
     display: flex;
