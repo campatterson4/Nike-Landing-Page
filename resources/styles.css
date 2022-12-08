@@ -125,14 +125,14 @@ li {
 
 .shoes-img {
     position: absolute;
-    left: 50%;
-    top: 50%;
+    left: 25%;
+    top: 43%;
     width: 85%;
     transform: translate(-50%, -50%);
 }
 
 .img-wrapper img {
-    width: 80%;
+    width: 90%;
     height: auto;
     transform: rotate(-35deg);
 }
@@ -151,11 +151,16 @@ li {
     text-transform: uppercase;
     font-weight: 900;
     font-size: 3.5em;
+    margin-bottom: 6%;
+    color: var(--dark-blue) !important;
 }
 
 .shoe-description {
-    text-align: justify;
+    text-align: center;
     margin: 60px 0;
+    margin-left: 15%;
+    width: 70%;
+    color: var(--grey);
 }
 
 .price {
@@ -170,9 +175,16 @@ li {
     margin: auto;
 }
 
+.shoe-color h3 {
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
 .color-wrapper {
     display: flex;
     flex-flow: row;
+    margin-left: 39.5%;
+    margin-top: 20px;
     padding: 5px;
 }
 
