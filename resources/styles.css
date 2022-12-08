@@ -3,11 +3,12 @@
     --matte-black: #28282B;
     --true-black: #000;
     --grey: #818589;
+    --white: #FAF9F6;
 }
 
 html,
 body {
-    overflow-x: hidden;
+    overflow: hidden;
     font-family: 'Roboto', sans-serif;
     /* background: rgb(235,174,161);
     background: linear-gradient(234deg, rgba(235,174,161,1) 0%, rgba(235,174,161,1) 41%, rgba(248,248,255,1) 41%); */
@@ -123,3 +124,30 @@ li {
     position: relative;
     top: 50px;
 } */
+
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.row:after, 
+.row:before {
+    box-sizing: border-box;
+}
+
+.col-6 {
+    position: relative;
+    width: 50%;
+}
+
+.slider {
+    height: 500%;
+    overflow: hidden;
+}
+
+.full-height {
+    height: 100vh;
+}
+
