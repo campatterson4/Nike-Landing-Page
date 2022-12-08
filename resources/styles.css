@@ -163,3 +163,19 @@ li {
     height: auto;
     transform: rotate(-35deg);
 }
+
+.shoe-info {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    padding: 0 10%;
+    color: var(--matte-black);
+    transform: translate(-50%, -50%);
+}
+
+.info-wrapper {
+    position: relative;
+    text-align: center;
+    margin: auto;
+}
