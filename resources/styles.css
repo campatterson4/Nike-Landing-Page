@@ -13,8 +13,6 @@ html,
 body {
     height: 100vh;
     overflow: hidden;
-    /* background: rgb(235,174,161);
-    background: linear-gradient(234deg, rgba(235,174,161,1) 0%, rgba(235,174,161,1) 41%, rgba(248,248,255,1) 41%); */
 }
 
 * {
@@ -26,7 +24,7 @@ body {
 
 /* NAVBAR */
     .navbar {
-     background-color: var(--pink);
+     background-color: #F6DDD7;
     color: var(--true-black);
 }
 
@@ -304,3 +302,8 @@ button {
     color: #fff;
    }
    /* END BUTTON */
+
+   .img-column {
+    border-bottom-left-radius: 100%;
+    background-image: linear-gradient(to top right, #EBAEA1, white);
+   }
