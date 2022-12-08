@@ -6,6 +6,7 @@
     --white: #FAF9F6;
     --blue: #004C8D;
     --tan: #DFD3C1;
+    --dark-blue: #282936;
 }
 
 html,
@@ -246,7 +247,7 @@ li {
     background-color: var(--tan);
 }
 
-
+/* BUTTON */
 button {
     position: relative;
     display: inline-block;
@@ -334,3 +335,4 @@ button {
    button:hover .button-text {
     color: #fff;
    }
+   /* END BUTTON */
