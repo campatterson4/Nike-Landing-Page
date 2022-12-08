@@ -73,18 +73,9 @@ content: "";
     transform: scaleX(1);
 }
 
-.navbar a:hover {
-    
-}
-
-
 .outline {
     color: black;
     text-decoration: none;
-}
-
-.logo {
-    
 }
 
 li {
@@ -124,37 +115,4 @@ li {
     position: relative;
     top: 50px;
 } */
-
-.bg-white {
-    background-color: var(--white);
-}
-
-.bg-pink {
-    background-color: var(--pink);
-}
-
-.row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.row:after, 
-.row:before {
-    box-sizing: border-box;
-}
-
-.col-6 {
-    position: relative;
-    width: 50%;
-}
-
-.slider {
-    height: 500%;
-    overflow: hidden;
-}
-
-.full-height {
-    height: 100vh;
-}
 
